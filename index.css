@@ -1,0 +1,85 @@
+/* {
+    box-sizing: border-box;
+    padding: 0px 20px; /* top, right, bottom, left 
+  } */
+
+h1 {
+    text-align: center;
+    font-family: Monaco;
+}
+
+h4 {
+    text-align: center;
+    font-family: Monaco;
+}
+
+p {
+    box-sizing: border-box;
+    padding: 0px 38px;
+    font-family: Monaco;
+}
+
+body {
+    background-color: lightsteelblue;
+ }
+
+ .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .column {
+    float: left;
+    width: 30%;
+    padding: 22px;
+ }
+
+ .row::after {
+    content: "";
+    display: table;
+    clear: both;
+ }
+
+.image {
+    display:block;
+    margin: auto;
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.picture {
+    display: block;
+    width: 100%
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; /* makes it hidden by default*/
+    transition: 0.25s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1em;
+    margin-top: 0.25em; /* decrease space between the title and description*/
+}
