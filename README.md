@@ -17,5 +17,5 @@ This webpage is crafted using the fundamentals of front-end development and desi
 and traditional culinary practices, offering a fresh perspective on the concept of cookbooks.
 
 ## Viewing the Webpage
-**Link:** 
+**Link:** https://areeshajat.github.io/odin-recipes/
 
