@@ -1,5 +1,6 @@
 # odin-recipes
-Project Description: This is a recipe cookbook featuring three authentic Mexican dishes: Nachos, Quesadillas, and Tacos.
+##Project Description
+This is a recipe cookbook featuring three authentic Mexican dishes: Nachos, Quesadillas, and Tacos.
 
 Home Page: The home page serves as an introduction to Mexican culture and showcases images of these three dishes. Each dish's image has a hover-over effect, revealing a quote when hovered, and can be clicked to access the specific recipe page. Additionally, there's a convenient link at the bottom to navigate back to the Odin Project home page.
 
