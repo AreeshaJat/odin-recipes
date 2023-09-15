@@ -8,6 +8,12 @@ h1 {
     font-family: Monaco;
 }
 
+h2 {
+    box-sizing: border-box;
+    padding: 0px 38px;
+    font-family: Monaco;
+}
+
 h4 {
     text-align: center;
     font-family: Monaco;
@@ -19,27 +25,39 @@ p {
     font-family: Monaco;
 }
 
+ul {
+    display: table;
+    margin: 15px;
+    font-family: Monaco;
+}
+
+ol {
+    display: table;
+    margin: 30px;
+    font-family: Monaco;
+}
+
 body {
     background-color: lightsteelblue;
- }
+}
 
- .center {
+.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
- }
+}
 
- .column {
+.column {
     float: left;
     width: 30%;
     padding: 22px;
- }
+}
 
- .row::after {
+.row::after {
     content: "";
     display: table;
     clear: both;
- }
+}
 
 .image {
     display:block;
