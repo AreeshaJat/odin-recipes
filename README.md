@@ -16,3 +16,6 @@ To enhance user experience, a home icon is included on recipe pages, allowing us
 This webpage is crafted using the fundamentals of front-end development and design. It draws inspiration from Mexican culture 
 and traditional culinary practices, offering a fresh perspective on the concept of cookbooks.
 
+## Viewing the Webpage
+**Link:** 
+
